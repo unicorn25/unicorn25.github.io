@@ -2,14 +2,20 @@
 layout: default
 ---
 
-<div class="card-panel">
-    <h3 class="card-title">
-        {{ page.title }}
-    </h3>
-    <h5 class="item-date">
-    	{{ page.date | date: '%Y-%m-%d' }}
-    </h5>
-    <p>
-        {{ page.content }}
-    </p>
+<div class="container row">
+   <!--  <h1 class="cv-title"><span class="black white-text">{{ page.title }}</span></h1> -->
+
+    <div class="item">
+        <h2 class="item-date">{{ page.date | date: '%Y-%m-%d' }}</h2>
+        <div class="card-panel">
+            <h3 class="card-title">
+                {{ page.title }}
+            </h3>
+            <p>
+                {{ content }}
+            </p>
+        </div>
+    </div>
+
+
 </div>

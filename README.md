@@ -1,6 +1,6 @@
 ### unicorn25.github.io
 
->[丑马工作室]((http://ughorse.com))的技术博客，基于 [jekyll-timeline](https://github.com/lukas-h/jekyll-timeline) 修改实现。
+>[丑马工作室](http://ughorse.com)的技术博客，基于 [jekyll-timeline](https://github.com/lukas-h/jekyll-timeline) 修改实现。
 
 ----
 [HERE](http://blog.ughorse.com) is the demo

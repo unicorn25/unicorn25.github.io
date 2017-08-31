@@ -1,6 +1,6 @@
 ---
 title: 丑马根据地
-timezone: China/ShangHai
+#timezone: China/ShangHai
 collections:
   posts:
     title: Posts
@@ -15,12 +15,12 @@ defaults:
 - scope:
     path: ''
     type: steps
-  values:
-    title: 
-    date: 2016-09-01 00:00:00 -0700
+ # values:
+ #   title: 
+ #   date: 2016-09-01 00:00:00 -0700
 markdown: kramdown
 highlighter: rouge
-lsi: false
+lsi: true
 description: your resume
 #baseurl: "/jekyll-timeline"
 url: http://blog.ughorse.com

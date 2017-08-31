@@ -1,12 +1,15 @@
 ---
+layout: default
 ---
 
-<!DOCTYPE html>
-<html>
-
-{% include head.html %}
-
-<body>
-{{ content }}
-</body>
-</html>
+<div class="card-panel">
+    <h3 class="card-title">
+        {{ page.title }}
+    </h3>
+    <h5 class="item-date">
+    	{{ page.date | date: '%Y-%m-%d' }}
+    </h5>
+    <p>
+        {{ page.content }}
+    </p>
+</div>

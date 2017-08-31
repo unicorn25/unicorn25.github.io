@@ -15,7 +15,7 @@ layout: default
             </h3>
             <p>
                 <!-- {{ step.content }} -->
-                {{ step.content | truncate: 300 }}&hellip;
+                {{ step.content | strip_html | strip_newlines | truncate: 300 }}&hellip;
             </p>
             <br>
             <a class="btn-read-more" href={{ step.url }}>READ MORE >></a>

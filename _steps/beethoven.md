@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Ludwig van Beethoven
 date: 1770-12-15
 enddate: 1827-03-29

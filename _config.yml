@@ -7,7 +7,7 @@ collections:
     output: true
   steps:
     title: Steps
-    output: false
+    output: true
   uploads:
     title: Uploads
     output: true
@@ -21,7 +21,7 @@ defaults:
 markdown: kramdown
 highlighter: rouge
 lsi: true
-description: your resume
+description: 丑马工作室文集
 #baseurl: "/jekyll-timeline"
 url: http://blog.ughorse.com
 color: "#f2f2f2"

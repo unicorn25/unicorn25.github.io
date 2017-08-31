@@ -1,9 +1,7 @@
-# oschina
 ---
 title: gitee of oschina
 date: 2017-08-31
 ---
-  
   
 >开源中国的[码云](https://gitee.com/)（以下简称码云），是基于 git 的，云端在线的，代码托管和项目管理服务。  
 >可以理解为国内版的GitHub，当然人气、代码规模等方便是不足比较的。    

@@ -1,6 +1,6 @@
 ---
-title: Composers
-timezone: Europe/Berlin
+title: 丑马根据地
+timezone: China/ShangHai
 collections:
   posts:
     title: Posts
@@ -22,6 +22,6 @@ markdown: kramdown
 highlighter: rouge
 lsi: false
 description: your resume
-baseurl: "/jekyll-timeline"
-url: http://himsel.me
+#baseurl: "/jekyll-timeline"
+#url: http://himsel.me
 color: "#f2f2f2"

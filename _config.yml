@@ -23,5 +23,5 @@ highlighter: rouge
 lsi: false
 description: your resume
 #baseurl: "/jekyll-timeline"
-#url: http://himsel.me
+url: http://blog.ughorse.com
 color: "#f2f2f2"

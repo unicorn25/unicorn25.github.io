@@ -15,8 +15,9 @@ layout: default
             </h3>
             <p>
                 <!-- {{ step.content }} -->
-                {{ step.content | truncate: 400 }}&hellip;
+                {{ step.content | truncate: 300 }}&hellip;
             </p>
+             <a href={{ step.url }}>READ MORE >></a>
         </div>
     </div>
     {% endfor %}

@@ -6,11 +6,14 @@ layout: default
    <!--  <h1 class="cv-title"><span class="black white-text">{{ page.title }}</span></h1> -->
 
     <div class="item">
-        <h2 class="item-date">{{ page.date | date: '%Y-%m-%d' }}</h2>
+        <h2 class="item-date">{{ page.title }}</h2>
+        <br>
+        <h4 class="item-date">{{ page.date | date: '%Y-%m-%d' }}</h4>
+
         <div class="card-panel">
-            <h3 class="card-title">
+            <!-- <h3 class="card-title">
                 {{ page.title }}
-            </h3>
+            </h3> -->
             <p>
                 {{ content }}
             </p>

@@ -1,32 +1,36 @@
 body {
-font-size:20px;
-font-family:'Lato',sans-serif,Helvetica;
+	font-size:20px;
+	font-family:'Lato',sans-serif,Helvetica;
 }
 img {
-max-width:100%
+	max-width:100%
 }
 h1,h2,h3,h4,h5,h6 {
-font-family:'Oswald',sans-serif,Helvetica;
-text-transform:uppercase
+	font-family:'Lato',sans-serif,Helvetica;
 }
 
 h1 {
-	font-size: 34px;
+	font-size: 2em;
 }
 
 h2 {
-	font-size: 24px;
+	font-size: 1.5em;
 }
 
 h3 {
-	font-size: 22px;
-}
-h4,h5,h6 {
-	font-size: 20px;
+	font-size: 1.17em;
 }
 
-h2, h3 {
-	margin: 0 0;
+h4, {
+	font-size: 1em;
+}
+
+h5 {
+	font-size: 0.83em;
+}
+
+h6 {
+	font-size: 0.67em;
 }
 
 .item {
@@ -87,6 +91,7 @@ position:relative
 .post-date {
 margin-left:4rem
 }
+
 code {
 	font-family: 'Inconsolata', monospace;
 }

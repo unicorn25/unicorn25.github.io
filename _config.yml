@@ -24,6 +24,7 @@ kramdown:
   input: GFM
 
 highlighter: rouge
+rouge: pygments
 lsi: true
 description: 丑马工作室文集
 #baseurl: "/jekyll-timeline"

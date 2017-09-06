@@ -113,3 +113,12 @@ ol {
 ul {
 	list-style-type: disc; 
 }
+
+.excerpt-title{
+	color: #444;
+	font-weight: 700;
+}
+.excerpt-content{
+	color: #666;
+	font-size: 16px;
+}

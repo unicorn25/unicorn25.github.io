@@ -15,6 +15,7 @@ padding-top:100px;
 min-height:150px;
 position:relative
 }
+
 .item:before,.last-item:after {
 background:#fff;
 border:8px solid #000;
@@ -115,24 +116,27 @@ code {
 	margin-bottom: 16px;
 }
 
+ol, ul {
+	list-style: none; 
+}
+
 .item ol {	
 	line-height: 24px;
 	margin-top: 0px;
 	margin-bottom: 16px;
 	padding-left: 32px;
-	word-wrap: break-word; 
 	list-style-type: decimal; 
 } 
+
 .item ul {
 	line-height: 24px;
 	margin-top: 0px;
 	margin-bottom: 16px;
 	padding-left: 32px;
-	word-wrap: break-word; 
 	display: block;
-	list-style-position: inside;
 	list-style-type: disc; 
 }
+
 .item li{
-	margin-left: 50px;
+	display: list-item;
 }

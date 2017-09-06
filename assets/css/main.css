@@ -129,5 +129,7 @@ code {
 	margin-bottom: 16px;
 	padding-left: 32px;
 	word-wrap: break-word; 
+	display: block;
+	list-style-position: inside;
 	list-style-type: disc; 
 }

@@ -1,5 +1,6 @@
 body {
 	font-size:16px;
+	color: #24292e;
 	font-family:'Lato',sans-serif,Helvetica;
 }
 img {
@@ -11,6 +12,11 @@ h1,h2,h3,h4,h5,h6 {
 
 ol, ul {
 	list-style: none; 
+}
+ol, ul {
+	margin-top: 0px;
+	margin-bottom: 16px;
+	padding-left: 2em;
 }
 
 .item {
@@ -110,7 +116,6 @@ code {
 	font-size: 16px;
 }
 
-
 .item blockquote{
 	border-left: 4px solid #dfe2e5;
 	padding: 0 1em;
@@ -119,19 +124,9 @@ code {
 	margin-bottom: 16px;
 }
 
-ol, ul {
-	margin: 0 0 1.3em 2.5em; 
-}
-ol li, ul li {
-	margin: 0 0 .2em 0;
-	line-height: 1.6em; 
-}
-ol ol, ol ul, ul ol, ul ul {
-	margin: .1em 0 .2em 2em; 
-}
-ol {
+.item ol {
 	list-style-type: decimal; 
 } 
-ul {
+.item ul {
 	list-style-type: disc; 
 }

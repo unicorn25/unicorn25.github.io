@@ -10,13 +10,6 @@ h1,h2,h3,h4,h5,h6 {
 	font-family:'Lato',sans-serif,Helvetica;
 }
 
-ol, ul {
-	line-height: 1.5;
-	margin-top: 0px;
-	margin-bottom: 16px;
-	padding-left: 2em;
-}
-
 .item {
 padding-top:100px;
 min-height:150px;
@@ -120,6 +113,14 @@ code {
 	color: #6a737d;
 	margin-top: 0;
 	margin-bottom: 16px;
+}
+
+.item ol ul{
+	line-height: 1.5;
+	margin-top: 0px;
+	margin-bottom: 16px;
+	padding-left: 2em;
+	word-wrap: break-word; 
 }
 
 .item ol {	

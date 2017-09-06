@@ -9,6 +9,10 @@ h1,h2,h3,h4,h5,h6 {
 	font-family:'Lato',sans-serif,Helvetica;
 }
 
+ol, ul {
+	list-style: none; 
+}
+
 .item {
 padding-top:100px;
 min-height:150px;
@@ -115,16 +119,19 @@ code {
 	margin-bottom: 16px;
 }
 
-.item ul{
-	display: block;
-	list-style-type: disc;
-	line-height: 1.5;
-	padding-left: 2em;
-	margin-top: 0;
-	margin-bottom: 16px;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 40px;
+ol, ul {
+	margin: 0 0 1.3em 2.5em; 
+}
+ol li, ul li {
+	margin: 0 0 .2em 0;
+	line-height: 1.6em; 
+}
+ol ol, ol ul, ul ol, ul ul {
+	margin: .1em 0 .2em 2em; 
+}
+ol {
+	list-style-type: decimal; 
+} 
+ul {
+	list-style-type: disc; 
 }

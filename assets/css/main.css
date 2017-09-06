@@ -105,3 +105,24 @@ code {
 	color: #666;
 	font-size: 16px;
 }
+
+
+.item blockquote{
+	border-left: 4px solid #e8e8e8;
+	padding: 20px;
+	opacity: .6;
+	letter-spacing: -1px;
+	font-style: italic;
+	margin: 30px 0;
+	background-color:#f7f7f7f;
+}
+
+.item ul{
+	display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}

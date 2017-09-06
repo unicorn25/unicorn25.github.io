@@ -133,3 +133,6 @@ code {
 	list-style-position: inside;
 	list-style-type: disc; 
 }
+.item li{
+	margin-left: 50px;
+}

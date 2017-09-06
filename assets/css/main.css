@@ -11,9 +11,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 ol, ul {
-	list-style: none; 
-}
-ol, ul {
+	line-height: 1.5;
 	margin-top: 0px;
 	margin-bottom: 16px;
 	padding-left: 2em;
@@ -124,7 +122,7 @@ code {
 	margin-bottom: 16px;
 }
 
-.item ol {
+.item ol {	
 	list-style-type: decimal; 
 } 
 .item ul {

@@ -116,10 +116,10 @@ code {
 }
 
 .item ol ul{
-	line-height: 1.5;
+	line-height: 24px;
 	margin-top: 0px;
 	margin-bottom: 16px;
-	padding-left: 2em;
+	padding-left: 32px;
 	word-wrap: break-word; 
 }
 

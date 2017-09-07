@@ -5,11 +5,12 @@ date: 2017-09-08
 ---
 
 我们把字母在字母表里的读音称为字母音，把字母在单词中的读音称为  
-字母发音。
+字母发音。    
+
 ![](/images/linkinmama/yinbiao.jpg)  
 
-字母发音可简单分为分为短元音、长元音，双元音，辅音。
-因为辅音的发音规则通常比元音要简单，所以
+字母发音可简单分为短元音、长元音，双元音，辅音。   
+因为辅音的发音规则比元音简单，所以
 我们先从辅音开始，分组学习：     
 PS:格式为
 >字母 ->/发音/  单词示例  
@@ -20,7 +21,7 @@ PS:格式为
 >Mm ->/m/  moon  
 >Nn ->/n/  no  
 >Ss ->/s/  so  
->Xx ->/ks/ box  
+>Xx ->/ks/ box    
 ----
 
 ## 去尾法：去掉字母音的尾音就是字母的发音。
@@ -34,8 +35,8 @@ PS:格式为
 >Vv ->/v/ view  
 >Zz ->/z/ zero   
 
-**注意：**   
->Cc 还发/k/ cat;
+  
+>注意：Cc 还发/k/ cat;
 
  ----
 ## 拼音头音法：汉语拼音的头音就是字母的发音，
@@ -72,16 +73,18 @@ PS:格式为
 
 
 ----
-下面开始涉及字母组合的发音。
+
+
+   
+       
+下面开始涉及字母组合的发音。  
 PS:示例格式为
 >/发音/ ->   
 > 　字母（组合）: 单词示例  
 
 >/u/   
-> 　oo: look good foot wood  
-
-**注意：**   
->oo  还发/u:/;
+> 　oo: look good foot wood   
+>注意：oo  还发/u:/;
 
 >/ə/   
 > 　ure:  picture  
@@ -129,14 +132,14 @@ PS:示例格式为
 > 　ai:ball wall  
 > 　or:horse short or fork  corn   
 > 　oor:floor door  
-**注意：**   or:  还发/ə/；
+>注意：or:   还发/ə/；
 
-/a:/(对应/ʌ/)  
+>/a:/(对应/ʌ/)  
 > 　a:grass glass class plant dance fast father last   
 > 　ar：car star garden dark scarf  
 > 　au: laugh aunt  
 > 　ear：heart   
-**注意：**   ear： 一般发 /eə/  bear
+>注意：ear： 一般发 /eə/  bear
 
 > /u:/(对应/u/)  
 > 　o:do who whose   
@@ -159,7 +162,7 @@ PS:示例格式为
 > /au/	  
 > 　ou: house mouse mouth   
 > 　ow:  flower cowrd how now down    
-**注意：**   > 　ow: 还发/əu/  blow    
+>注意：ow: 还发/əu/  blow    
 
 > /ei/  
 > 　a: cake make name game snake gate  
@@ -175,8 +178,7 @@ PS:示例格式为
 > 　eer: deer beer   
 > 　ear: ear hear tear       
 > 　ere:  here        
-**注意：** 
- > 　ear: 还发/εə/  pear  
+>注意：ear: 还发/εə/  pear  
 
 >/uə/    
 > 　oor:  poor  
@@ -187,15 +189,13 @@ PS:示例格式为
 > 　o:  nose rose poen over  
 > 　oa:  boat coat soap goat  
 > 　ow:  show window snow bowl   
-**注意：**    　ow: 另外读作/auə/  flower    
+>注意：ow: 另外读作/auə/  flower    
 
 
 >/ɔi/		  
 > 　oi:  oil boil coin toilet(唯一发音)  
-> 　oy:  boy toy(唯一发音)
-**注意：**   
- > 　ow: 另外读作/auə/  flower  
- > 　标记唯一发音表示这个发音必定是这个字母组合。  
+> 　oy:  boy toy(唯一发音)  
+>注意：标记唯一发音表示这个发音必定是这个字母组合。  
 ----
 ## 其他音标 
 >/tʃ/  

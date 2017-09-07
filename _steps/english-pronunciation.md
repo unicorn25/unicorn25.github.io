@@ -4,16 +4,13 @@ title: 英文单词到底怎么读
 date: 2017-09-08
 ---
 
-## 基础概念
-字母音：字母在字母表里的读音。  
-发音：字母在单词中的读音。分为单元音、双元音，辅音。
+我们把字母在字母表里的读音称为字母音，把字母在单词中的读音称为  
+字母发音。
 ![](/images/linkinmama/yinbiao.jpg)  
 
-
-----
-在26个字母中，6个为元音字母：Aa Oo Uu Ee Yy Ii;   
-通常元音发音比较复杂，辅音比较简单。
-我们先从单字母的辅音发音开始学习：  
+字母发音可简单分为分为短元音、长元音，双元音，辅音。
+因为辅音的发音规则通常比元音要简单，所以
+我们先从辅音开始，分组学习：     
 PS:格式为
 >字母 ->/发音/  单词示例  
 
@@ -28,7 +25,7 @@ PS:格式为
 
 ## 去尾法：去掉字母音的尾音就是字母的发音。
 >Bb ->/b/  boat  
->Cc ->/s/ face city cent city bicycle circle还可以发/k/ cat c  
+>Cc ->/s/ face 
 >Dd ->/d/ door  
 >Jj ->/dʒ/ joke  
 >Kk ->/k/ book  
@@ -49,8 +46,10 @@ PS:格式为
 >Rr ->/r/ rock  
 
 ----
-下面开始进入元音的学习。
+下面进入元音的学习，先从短元音入手。
+
 ## 短元音
+在26个字母中，6个为元音字母：Aa  Ee  Ii Oo Uu Yy; 
 >Aa ->/æ/ dad cap cat bad apple bag flag hand rabbit ant black fat hat  
 >Ee ->/e/ egg bell leg pet ten pen  bed bread desk get    
 >Ii ->/i/pig fish in fifteen six ship thin   
@@ -73,8 +72,8 @@ PS:格式为
 
 
 ----
-下面开始字母组合的发音：
-PS:格式为
+下面开始涉及字母组合的发音。
+PS:示例格式为
 >/发音/ ->   
 > 　字母（组合）: 单词示例  
 
@@ -112,36 +111,34 @@ PS:格式为
 
 
 ## 长元音（现在不太要求辨别长元音跟短元音）  
->/i:/(/i/延长)   
+>/i:/(对应/i/)   
  　ee: sweet bee sweep sheep three green see sleep    
  　ea:meat leaf sea pea teach eat clean  
  　e:me be she he we evening  
 
->/ə:/(/ə/延长)  
+>/ə:/(对应/ə/)  
 > 　er:  her serve term  
 > 　Ir:  bird girl skirt first dirty skirt shirt  
 > 　or:  word work world  
 > 　ur:  nurse Thursday turtle purple  
 > 　ear:  early learn
 
->/ɔ:/(/ɔ/延长)  
+>/ɔ:/(对应/ɔ/)  
 > 　a:water  
 > 　aw:draw strawberry  
 > 　ai:ball wall  
 > 　or:horse short or fork  corn   
 > 　oor:floor door  
-**注意：**   
->or:  还发/ə/；
+**注意：**   or:  还发/ə/；
 
-/a:/(/ʌ/延长)  
+/a:/(对应/ʌ/)  
 > 　a:grass glass class plant dance fast father last   
 > 　ar：car star garden dark scarf  
 > 　au: laugh aunt  
-> 　ear：heart 
-**注意：**   
->ear： 一般发 /eə/  bear
+> 　ear：heart   
+**注意：**   ear： 一般发 /eə/  bear
 
-> /u:/(/u/延长)  
+> /u:/(对应/u/)  
 > 　o:do who whose   
 > 　oo:food moon too  
 > 　ui:fruit juice  
@@ -161,9 +158,8 @@ PS:格式为
 
 > /au/	  
 > 　ou: house mouse mouth   
-> 　ow:  flower cowrd how now down  
-**注意：**   
- > 　ow: 还发/əu/  blow    
+> 　ow:  flower cowrd how now down    
+**注意：**   > 　ow: 还发/əu/  blow    
 
 > /ei/  
 > 　a: cake make name game snake gate  
@@ -178,8 +174,7 @@ PS:格式为
 >/iə/     
 > 　eer: deer beer   
 > 　ear: ear hear tear       
-> 　ere:  here    
-
+> 　ere:  here        
 **注意：** 
  > 　ear: 还发/εə/  pear  
 
@@ -192,8 +187,7 @@ PS:格式为
 > 　o:  nose rose poen over  
 > 　oa:  boat coat soap goat  
 > 　ow:  show window snow bowl   
-**注意：**   
- > 　ow: 另外读作/auə/  flower    
+**注意：**    　ow: 另外读作/auə/  flower    
 
 
 >/ɔi/		  

@@ -28,7 +28,7 @@ PS:格式为
 ## 去尾法：去掉字母音的尾音就是字母的发音。
 >Bb ->/b/  boat  
 >Cc ->/s/ face 
->Dd ->/d/ door  
+>Dd ->/d/ door      
 >Jj ->/dʒ/ joke  
 >Kk ->/k/ book  
 >Pp ->/p/ poor  
@@ -109,7 +109,7 @@ PS:示例格式为
 >      rap	 　 　 　	 　 　 rape   
 >    bat	 　 　 　	 　 　 bate  
 >    rop	 　 　 　	 　 　 rope  
->     egg	 　 　 　	 　 　 be        
+>     egg	 　 　 　	 　 　 be         
 ----      
 
 
@@ -122,7 +122,7 @@ PS:示例格式为
 
 >/ə:/(对应/ə/)  
 > 　er:  her serve term  
-> 　Ir:  bird girl skirt first dirty skirt shirt  
+> 　ir:  bird girl skirt first dirty skirt shirt  
 > 　or:  word work world  
 > 　ur:  nurse Thursday turtle purple  
 > 　ear:  early learn
@@ -146,8 +146,7 @@ PS:示例格式为
 > 　o:do who whose   
 > 　oo:food moon too  
 > 　ui:fruit juice  
-> 　u:ruler rude  
-
+> 　u:ruler rude     
   
 ----
 
@@ -198,7 +197,10 @@ PS:示例格式为
 > 　oy:  boy toy(唯一发音)  
 >注意：标记唯一发音表示这个发音必定是这个字母组合。         
 
-----
+
+      
+----  
+
 ## 其他音标 
 >/tʃ/  
 > 　ch:  teacher peach cherry chain(唯一发音)   

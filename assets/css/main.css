@@ -138,8 +138,8 @@ ol, ul {
 }
 
 .item li{
-	display: list-item;
-	list-style-type: disc; 
+	display: list-item!important;
+	list-style-type: disc!important; 
 }
 
 code {

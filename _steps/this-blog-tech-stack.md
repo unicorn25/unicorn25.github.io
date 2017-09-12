@@ -80,7 +80,7 @@ W3Schools是一家WEB技术资源网站，提供全面的教程、完善的参�
 
 相关链接
 >* [w3school 英文官网](https://www.w3schools.com/)（要翻墙）
->* [w3school 英文版镜像](w3schools) （国内访问友好）
+>* [w3school 英文版镜像](http://w3schools.bootcss.com/default.html)（国内访问友好）
 >* [w3school 中文网站](http://www.w3school.com.cn/)（更新稍慢）
 
 

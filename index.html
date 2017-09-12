@@ -12,6 +12,7 @@ layout: default
         <div class="card-panel z-depth-3">
             <h2 class="card-title excerpt-title">
                 {{ step.title }}
+                {% if step.author %} <span class="new badge grey" data-badge-caption="">&nbsp;&nbsp;{{step.author}}&nbsp;&nbsp;</span>{% endif %} 
             </h2>
             <p class="excerpt-content">
                 <!-- {{ step.content }} -->

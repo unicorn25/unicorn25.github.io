@@ -7,7 +7,10 @@ layout: default
 
     <div class="item">
         <h2 class="item-date">{{ page.title }}</h2>
-        <h5 class="post-date">{{ page.date | date: '%Y-%m-%d' }}</h5>
+        <h5 class="post-date">
+            {{ page.date | date: '%Y-%m-%d' }}
+            {% if author %} <span class="new badge grey" data-badge-caption="">&nbsp;&nbsp;{{author}}&nbsp;&nbsp;</span>{% endif %} 
+        </h5>
 
         <div class="card-panel">
             <!-- <h3 class="card-title">

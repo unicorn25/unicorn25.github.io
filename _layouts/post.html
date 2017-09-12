@@ -6,10 +6,10 @@ layout: default
    <!--  <h1 class="cv-title"><span class="black white-text">{{ page.title }}</span></h1> -->
 
     <div class="item">
-        <h2 class="item-date">{{ page.title }}</h2>
+        <h2 class="card-title excerpt-title">{{ page.title }}</h2>
         <h5 class="post-date">
             {{ page.date | date: '%Y-%m-%d' }}
-            {% if author %} <span class="new badge grey" data-badge-caption="">&nbsp;&nbsp;{{author}}&nbsp;&nbsp;</span>{% endif %} 
+            {% if page.author %} <span class="new badge grey" data-badge-caption="">&nbsp;&nbsp;{{page.author}}&nbsp;&nbsp;</span>{% endif %} 
         </h5>
 
         <div class="card-panel">

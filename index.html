@@ -9,7 +9,7 @@ layout: default
     <div class="item">
         <i class="vertical-line"></i>
         <h3 class="item-date">{{ step.date | date: '%Y-%m-%d' }}</h3>
-        <div class="card-panel">
+        <div class="card-panel z-depth-3">
             <h2 class="card-title excerpt-title">
                 {{ step.title }}
             </h2>
@@ -18,7 +18,7 @@ layout: default
                 {{ step.content | strip_html | strip_newlines | truncate: 300 }}&hellip;
             </p>
             <br>
-            <a class="btn-read-more" href={{ step.url }}>READ MORE >></a>
+            <a class="waves-effect waves-light btn" href={{ step.url }}>READ MORE</a>
         </div>
     </div>
     {% endfor %}

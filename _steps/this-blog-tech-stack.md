@@ -22,7 +22,8 @@ Liquid是一门开源的**模板语言**，由 [Shopify](https://www.shopify.com
 从 2006 年起，Liquid 就被 Shopify 所使用，现在更是被大量 web 应用所使用。
 
 相关链接
->* [Liquid中文文档（推荐）](https://liquid.bootcss.com/)
+>* [Liquid 英文官网](https://shopify.github.io/liquid/)
+>* [Liquid 中文文档](https://liquid.bootcss.com/)（推荐）
 
 ----
 ### Bootstrap
@@ -32,15 +33,17 @@ Bootstrap 基于 HTML、CSS、Javascript，简洁灵活，使得 Web 开发更�
 相关链接
 >* [Bootstrap 英文官网](https://getbootstrap.com/)
 >* [Bootstrap 中文网](http://www.bootcss.com/)
+>* [Bootstrap 网站示例](http://expo.bootcss.com/)
 
 ----
-### Font-awesome 
-Liquid是一门开源的**模板语言**，由 [Shopify](https://www.shopify.com/) 创造并用 Ruby 实现。它是 Shopify 主题的骨骼，并且被用于加载店铺系统的动态内容。
-  
-从 2006 年起，Liquid 就被 Shopify 所使用，现在更是被大量 web 应用所使用。
+### Font Awesome
+Font-Awesome.css 提供可缩放矢量图标，它可以被定制大小、颜色、阴影，以及任何可用CSS定义的样式。
+
+![](/images/sam/font-awesome-brief.png)
 
 相关链接
->* [Liquid中文文档（推荐）](https://liquid.bootcss.com/)
+>* [Font Awesome 英文官网](http://fontawesome.io/)
+>* [Font Awesome 中文网](http://www.fontawesome.com.cn/)（推荐）
 
 ----
 ### BootCDN
@@ -59,6 +62,13 @@ BootCDN 是 [Bootstrap 中文网](http://www.bootcss.com/)和[又拍云](https:/
 >* [Bootstrap 中文网](http://www.bootcss.com/)
 >* [又拍云](https://www.upyun.com/)
 
+----
+### 阿里云 OSS & CDN
+主要用来做资源（图片等大文件）的加速
+
+* [阿里云对象存储 OSS](https://www.aliyun.com/product/oss?spm=5176.8142029.388261.238.Ecx0mg)
+* [阿里云 CDN](https://www.aliyun.com/product/cdn?spm=5176.7933691.765261.248.3w7ips)
+
 
 ----
 ### 其他
@@ -66,9 +76,9 @@ BootCDN 是 [Bootstrap 中文网](http://www.bootcss.com/)和[又拍云](https:/
 
 W3Schools是一家WEB技术资源网站，提供全面的教程、完善的参考手册以及庞大的代码库，学习者可以直接在线阅读文档、查看代码并进行调试。W3Schools紧随WEB技术的飞速发展，把提供高品质的WEB技术资源作为自身的使命，并适时地推出重要的升级版本，为用户提供最新鲜的内容和服务。
 
-* [w3school 英文官网](https://www.w3schools.com/)(要翻墙)
-* [w3school 英文版镜像](w3schools) (国内访问友好)
-* [w3school 中文网站](http://www.w3school.com.cn/)(更新稍慢)
+* [w3school 英文官网](https://www.w3schools.com/)（要翻墙）
+* [w3school 英文版镜像](w3schools) （国内访问友好）
+* [w3school 中文网站](http://www.w3school.com.cn/)（更新稍慢）
 
 
 #### 2、编码规范

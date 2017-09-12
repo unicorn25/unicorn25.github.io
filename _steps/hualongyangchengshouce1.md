@@ -2,6 +2,7 @@
 layout: post
 title: 话痨养成手册（一）——怎样提问才能有效地解决问题？
 date: 2017-08-31
+author: Linkinmama
 ---
   
 

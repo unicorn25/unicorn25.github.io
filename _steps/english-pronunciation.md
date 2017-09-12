@@ -2,6 +2,7 @@
 layout: post
 title: 英文单词到底怎么读
 date: 2017-09-08
+author: Linkinmama
 ---
 
 我们把字母在字母表里的读音称为字母音，把字母在单词中的读音称为  

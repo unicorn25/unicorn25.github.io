@@ -2,6 +2,7 @@
 layout: post
 title: 一步步搭建个人博客Blog----基于GitHub Pages & Jekyll
 date: 2017-09-06
+author: Sam
 ---
 
 ## GitHub Pages 是什么  

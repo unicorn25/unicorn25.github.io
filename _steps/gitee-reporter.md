@@ -2,6 +2,7 @@
 layout: post
 title: 码云（开源中国）体验报告
 date: 2017-08-31
+author: Sam
 ---
 
 #### 前言  

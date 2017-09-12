@@ -2,6 +2,7 @@
 layout: post
 title: 我们博客用到的技术概述
 date: 2017-09-12
+author: Sam
 ---
 
 ### Jekyll
@@ -12,8 +13,9 @@ Jekyll 也即是 GitHub Pages 的底层引擎。
 通常 Jekyll 项目使用的是稳定版的 Liquid，而不使用 beta 或 release candidate 版本。通过 Jekyll 的 gem 信息也 可查看 Jekyll 所依赖的所有 gem 包，从而可以了解 Jekyll 所使用的 Liquid 版本。
 
 相关链接
->* [Jekyll英文官网](http://jekyllrb.com/)
->* [Jekyll中文网](http://jekyll.com.cn/)
+>* [Jekyll 英文官网](http://jekyllrb.com/)
+>* [Jekyll 中文网](http://jekyll.com.cn/)
+>* [一大波 Jekyll 主题模板](http://jekyllthemes.org/)（推荐）
 
 ----
 ### Liquid

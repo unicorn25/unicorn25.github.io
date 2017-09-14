@@ -12,6 +12,11 @@ author: Sam
 * [哔哩哔哩投稿工具](https://member.bilibili.com/video/resubmit.html)上传工具（免费，官方出品） 
 
 
+### Adobe Premiere
+推荐几个视频教程，这里就不班门弄斧了
+* [Premiere CC基础入门教程（b站）](https://www.bilibili.com/video/av8703816/)
+*  ![](http://a.36krcnd.com/nil_class/b2827927-5d24-46cf-ac3f-6f861e20834f/new_logo.png)
+* [doyoudo.com](http://doyoudo.com/)
 
 ### B站视频要求
 

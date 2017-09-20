@@ -12,7 +12,7 @@ author: Linkinmama
 Git有三个工作区域，分别为：工作区、暂存区以及历史区。三者之间的关系如图：
 ![](/images/linkinmama/git_1.png)
 
-思考：远程分支有人在根目录下添加了一个文件名为s.txt的文件。而我恰巧也在本地根目录也添加了一个文件名为s.txt的文件，问:是stash save 以后，能不能pull成功？   
+思考：如果有人在远程分支提交了一个文件A。而我恰巧也在相同路径新建了一个同名文件A（没有add,也没有commit），问:进行stash save 操作后后，能不能pull成功？   
 
 ----
 ### stash pop 与 stash apply 的 区别

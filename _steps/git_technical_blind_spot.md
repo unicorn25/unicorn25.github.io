@@ -12,7 +12,8 @@ author: Linkinmama
 Git有三个工作区域，分别为：工作区、暂存区以及历史区。三者之间的关系如图：
 ![](/images/linkinmama/git_1.png)
 
-思考：远程分支有人在根目录下添加了一个文件名为s.txt的文件。而我恰巧也在本地根目录也添加了一个文件名为s.txt的文件，问:是stash save 以后，能不能pull成功？
+思考：远程分支有人在根目录下添加了一个文件名为s.txt的文件。而我恰巧也在本地根目录也添加了一个文件名为s.txt的文件，问:是stash save 以后，能不能pull成功？   
+
 ----
 ### stash pop 与 stash apply 的 区别
 stash pop 成功以后会删除stash 存档
@@ -40,7 +41,7 @@ hard:根据GIT记录的条件信息，依次对文件进行还原。（危险操
 同一分支：
 前面临时添加的测试文件，我觉得用不到了，所有全部删除。
 ![](/images/linkinmama/cherry_pick_0.png)
-马上就后悔了，因为1.txt,3.txt,5.txt这3个文件还可能用得到，必须还原。不要着急，我们可以利用cherry_pick 重新添加一次对应文件就可以了。  
+马上就后悔了，因为1.txt,3.txt,5.txt这3个文件很有可能以后会用到，必须还原。不要着急，我们可以利用cherry_pick 来解决这个问题。  
 ![](/images/linkinmama/cherry_pick_1.png)
 ![](/images/linkinmama/cherry_pick_2.png)
 ![](/images/linkinmama/cherry_pick_3.png)

@@ -18,19 +18,22 @@ author: Sam
 
 ### 2，Adobe Premiere
 推荐几个视频教程，这里就不班门弄斧了
-* [Premiere CC基础入门教程（b站）](https://www.bilibili.com/video/av8703816/)
-*  ![](http://a.36krcnd.com/nil_class/b2827927-5d24-46cf-ac3f-6f861e20834f/new_logo.png) [doyoudo.com](http://doyoudo.com/)
+* [Premiere CC 基础入门教程（b站）](https://www.bilibili.com/video/av8703816/)
+*  [![](/images/sam/bili/doyoudo_logo.png)](http://doyoudo.com/)
 
 ### 3，B站视频要求
 * 稿件封面图片大小不能超过1.5Mb，**图片高宽比为 1.6 ：1**   
   (实测，虽然官方推荐的尺寸是900x600)
 * 一个稿件可以包含若干P（一集、二集、三集。。。）  
 
-在新建的『投稿中』，点击如下图的『+』号：
+在新建的『投稿中』，点击如下图的『+』号：  
+
 ![](/images/sam/bili/add-p.png)
 
 ### 4，小丸工具箱压制参数
+
 ![](/images/sam/bili/xiaow-a-config.png)
+
 ![](/images/sam/bili/xiaow-v-config.png)
 
 

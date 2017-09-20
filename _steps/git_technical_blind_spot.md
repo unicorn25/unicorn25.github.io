@@ -56,7 +56,7 @@ hard:根据GIT提交信息，依次对文件进行还原（危险操作，对文
 ![](/images/linkinmama/cherry_pick_4.png)
 ![](/images/linkinmama/cherry_pick_5.png)
 
-不同分支：
+跨分支：   
 我新建了一个新的分支用于新功能开发，已经添加了2个功能点，这时突然发现一个重大BUG，通关修改3.txt文件修复了BUG。
 这时，新功能分支状态如图：
 ![](/images/linkinmama/cherry_pick2_0.png)

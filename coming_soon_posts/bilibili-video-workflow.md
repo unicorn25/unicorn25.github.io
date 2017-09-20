@@ -1,9 +1,11 @@
 ---
 layout: post
-title: B站视频——录制、剪辑、压制、上传一波流
-date: 2017-09-12
+title: 从录制到上传——我的B站视频制作流程
+date: 2017-09-20
 author: Sam
 ---
+
+>B站视频——录制、剪辑、压制、上传一波流操作。
 
 ### 用到的工具软件
 * [OBS Studio](https://obsproject.com/download)视频录制（免费开源）

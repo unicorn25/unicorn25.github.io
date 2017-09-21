@@ -16,6 +16,10 @@ min-height:150px;
 position:relative
 }
 
+.post-content-layout{
+	min-width: 800px;
+}
+
 .item:before,.last-item:after {
 background:#fff;
 border:8px solid #000;

@@ -19,7 +19,7 @@ author: Sam
 
 >个人经验：录像时，配置尽可能调高，录制高清晰的视频，到最后再去压制符合上传要求的视频。
 
-我的OBS视频输入配置如下：
+我的OBS视频输出配置如下：
 
 ![](/images/sam/bili/obs-video-cfg.png)
 

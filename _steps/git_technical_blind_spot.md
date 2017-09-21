@@ -38,40 +38,39 @@ hard:根据GIT提交信息，依次对文件进行还原（危险操作，对文
 ![](/images/linkinmama/git_reset_mixed.png)
 ![](/images/linkinmama/git_reset_hard.png)
 
-思考： 我在工作目录下新建一个文件A（）。 对最近一次提交进行reset- hard 操作 刚刚新建的文件是否被删除？
+思考： 我在工作目录下新建一个文件A。 对最近一次提交进行reset- hard 操作 刚刚新建的文件是否被删除？
 
 
 ----
 
 ### cherry pick
 重新提交指定的1个或多个commit（可以是同一分支，也可以跨分支）。     
-同一分支：
-一些临时添加的测试文件，我觉得用不到了，所有全部删除。
+同一分支：   
+如图，最近一次提交，我删除了一些认为用不到的文件。
 ![](/images/linkinmama/cherry_pick_0.png)
-但是马上就后悔了，因为1.txt,3.txt,5.txt这3个文件很有可能以后会用到，必须还原。这种情况，我们可以利用cherry_pick 来解决这个问题。  
+但是马上就后悔了，删除的文件中，1.txt,3.txt,5.txt可能有用，需要还原。这种情况，可以利用cherry_pick 解决问题。  
 ![](/images/linkinmama/cherry_pick_1.png)
 ![](/images/linkinmama/cherry_pick_2.png)
 ![](/images/linkinmama/cherry_pick_3.png)
-如果你觉得新增了3个commit看起来冗余。那么你还可以设置 cherry_pick 参数为 Squash ALL。将多个commit 合并为1个。
+如果你觉得新增了3个commit看起来冗余。可以设置 cherry_pick 参数为 Squash ALL。将多个commit 合并为1个。
 ![](/images/linkinmama/cherry_pick_4.png)
 ![](/images/linkinmama/cherry_pick_5.png)
 
 跨分支：   
-我新建了一个新的分支用于新功能开发，已经添加了2个功能点，这时突然发现一个重大BUG，通关修改3.txt文件修复了BUG。
-这时，新功能分支状态如图：
+我新建了一个分支用于开发新功能，已经添加了2个功能点，这时突然发现一个重大BUG，通过修改3.txt文件修复了BUG。这个修复怎么在不合并分支的情况下同步到其他分支呢？也可以利用Cherry pick
+当前新功能分支状态如图：
 ![](/images/linkinmama/cherry_pick2_0.png)
-主分支状态如图：
+当前主分支状态如图：
 ![](/images/linkinmama/cherry_pick2_1.png)
-主分支也有这个致命的BUG，必须尽快修复。但是，新功能未开发完，不方便合并分支，如何处理？也可以用cherry pick来解决。
 先切换到主分支。
 ![](/images/linkinmama/cherry_pick2_2.png)
 查看当前分支的LOG信息。
 ![](/images/linkinmama/cherry_pick2_5.png)
-将LOG信息列表切换到“新功能分支”。
+将LOG信息列表切换到“新功能”分支。
 ![](/images/linkinmama/cherry_pick2_6.png)
 cherry pick 修复BUG的commit。
 ![](/images/linkinmama/cherry_pick2_7.png)
-修复BUG 的commit已经同步到了主分支了！
+commit已经同步到了主分支了！
 ![](/images/linkinmama/cherry_pick2_8.png)
 
 

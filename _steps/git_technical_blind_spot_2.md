@@ -25,7 +25,17 @@ Bisect reset:停止bisect。
 ![](/images/linkinmama/Bisect4.png)  
 设置bad:
 ![](/images/linkinmama/Bisect5.png)
-这里我们选择
+当前的log列表变为：
+![](/images/linkinmama/Bisect6.png)
+这是因为git会自动将head移动到处在good commit和bad commit中间位置的commit;   
+此时，右键菜单会多出Bisect相关选项；
+我们检查“+4.txt”的commit，发现没有问题。于是我们将其设为good;
+![](/images/linkinmama/Bisect7.png)
+log列表多了两次commit ,这是因为当我们把当前head 所在的commit 设置为good时，git又自动把head移动到bad commit 与good commit的中值;  
+检查“+6”的commit，发现有问题。我们将其设为bad;   
+![](/images/linkinmama/Bisect8.png)  
+再检查“+6.txt” commit bug就锁定了。
+
 
 选择有bug的最早一次commit;
 ![](/images/linkinmama/Bisect2.png)

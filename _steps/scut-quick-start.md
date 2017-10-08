@@ -28,12 +28,15 @@ author: Sam
 * [oschina 码云](https://gitee.com/scutgame/Scut) (源码仓库)
 * [Github](https://github.com/ScutGame/Scut) (源码仓库)
 * [redis](https://github.com/MicrosoftArchive/redis) (Windows平台)
+* [MySql](https://dev.mysql.com/)
+* [Navicat for MySQL](https://www.navicat.com/en/products/navicat-for-mysql) (MySql 管理工具)
 
 ### 1、配置运行环境
 
 #### (1) 下载并配置 redis
 
-reids 下载参考上文的相关网址。redis目录如下：
+redis 是SCUT的主要数据库。而 MySql 只是相当于 redis 的备份。
+redis 下载参考上文的相关网址。redis目录如下：
 
 ```
 └─redis
@@ -45,8 +48,25 @@ reids 下载参考上文的相关网址。redis目录如下：
 
 [MicrosoftArchive/redis/wiki/redis.conf](https://github.com/MicrosoftArchive/redis/wiki/redis.conf)
 
+#### (2) 下载并配置 MySql
 
-#### (2) 下载并配置SCUT服务程序
+**注意：**
+
+>若只测试运行 SCUT，此步骤不是必须。但是若需要在数据库建立表格来存取数据，则必须先执行此步骤。
+
+MySQL Community Server 下载地址 : [dev.mysql.com/downloads/mysql](https://dev.mysql.com/downloads/mysql/)
+
+安装好 MySql 后，修改 ```Console/GameServer.exe.config```文件中，数据库的账号、密码（uid，pwd）。
+
+![](/images/sam/scut/mysql-config.png)
+
+然后，在数据库中创建以下三个对应的 database (可以用 Navicat 来执行)：
+* snscenter
+* phdata
+* paydb
+
+
+#### (3) 下载并配置 SCUT 服务程序
 
 从源码仓库拉取源代码后，进入```\Scut\Release\6.7.9.11\Console``` 目录，点击```Install.bat```
 
@@ -114,7 +134,7 @@ reids 下载参考上文的相关网址。redis目录如下：
 
 ### 2、启动服务器
 
-#### (1) 先启动redis
+#### (1) 先启动 redis
 
 注意：若有修改 redis.windows.conf 文件，redis启动需要加载它。
 

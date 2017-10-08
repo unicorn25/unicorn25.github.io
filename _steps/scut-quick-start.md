@@ -5,7 +5,7 @@ date: 2017-10-08
 author: Sam
 ---
 
-本文章介绍的是 SCUT 在 Windows 平台运行流程。
+前言：本文章介绍的是 SCUT 在 Windows 平台运行流程。
 
 ### [SCUT](http://www.scutgame.com/) 简介
 
@@ -29,16 +29,24 @@ SCUT 包含从网络消息收发，到数据缓存，到数据库，一整套服
 * [Github](https://github.com/ScutGame/Scut) (源码仓库)
 * [redis](https://github.com/MicrosoftArchive/redis) (Windows平台)
 
-### redis
+### 1、配置运行环境
+
+#### (1) 下载并配置 redis
+
 reids 下载参考上文的相关网址。redis目录如下：
+
 ```
 └─redis
     │   redis-cli.exe
     │   redis-server.exe
     │   redis.windows.conf
 ```
+其中，redis.windows.conf 为 redis 的配置文件，详细介绍可以参考：
 
-### 服务器目录结构
+https://github.com/MicrosoftArchive/redis/wiki/redis.conf
+
+
+#### (2) 下载并配置SCUT服务
 
 从源码仓库拉取源代码后，进入 ```\Scut\Release\6.7.9.11\Console``` 目录，点击```Install.bat```
 
@@ -46,7 +54,7 @@ reids 下载参考上文的相关网址。redis目录如下：
 
 完成后Console文件夹目录如下：
 ```
-└─Console
+──Console
     │  GameServer.exe
     │  GameServer.exe.config
     │  GameServer.pdb
@@ -104,9 +112,9 @@ reids 下载参考上文的相关网址。redis目录如下：
 * /Script/CsScript 目录为 C# 源代码存放目录
 * /Script/Model 目录对应数据库表的类文件，且只能存放此类型文件
 
-### 启动服务器
+### 2、启动服务器
 
-#### 1, 先启动redis
+#### (1) 先启动redis
 
 注意：若有修改 redis.windows.conf 文件，redis启动需要加载它。
 
@@ -120,8 +128,13 @@ start redis-server.exe  redis.windows.conf
 
 ![](/images/sam/scut/redis-ok.png)
 
-#### 2, 再启动 GameServer.exe
+#### (2) 再启动 GameServer.exe
 
 启动成功后如下图：
 
 ![](/images/sam/scut/scut-ok.png)
+
+
+### 3、关闭服务器
+
+关闭服务器请反序启动流程。

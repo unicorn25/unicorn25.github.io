@@ -33,7 +33,7 @@ author: Sam
 
 ### 1、配置运行环境
 
-#### (1) 下载并配置 redis
+#### Ⅰ, 下载并配置 redis
 
 redis 是SCUT的主要数据库。而 MySql 只是相当于 redis 的备份。
 redis 下载参考上文的相关网址。redis目录如下：
@@ -48,7 +48,7 @@ redis 下载参考上文的相关网址。redis目录如下：
 
 [MicrosoftArchive/redis/wiki/redis.conf](https://github.com/MicrosoftArchive/redis/wiki/redis.conf)
 
-#### (2) 下载并配置 MySql
+#### Ⅱ, 下载并配置 MySql
 
 **注意：**
 
@@ -66,7 +66,7 @@ MySQL Community Server 下载地址 : [dev.mysql.com/downloads/mysql](https://de
 * paydb
 
 
-#### (3) 下载并配置 SCUT 服务程序
+#### Ⅲ, 下载并配置 SCUT 服务程序
 
 从源码仓库拉取源代码后，进入```\Scut\Release\6.7.9.11\Console``` 目录，点击```Install.bat```
 
@@ -134,14 +134,14 @@ MySQL Community Server 下载地址 : [dev.mysql.com/downloads/mysql](https://de
 
 ### 2、启动服务器
 
-#### (1) 若有需要 MySql 数据库服务，确保 MySql 已启动
+#### Ⅰ, 若有需要 MySql 数据库服务，确保 MySql 已启动
 
 进入MySql安装目录下的bin目录，MySql 启动命令如下：
 
 ```
 net start mysql
 ```
-#### (2) 再启动 redis
+#### Ⅱ, 再启动 redis
 
 注意：若有修改 redis.windows.conf 文件，redis启动需要加载它。
 
@@ -155,7 +155,7 @@ start redis-server.exe  redis.windows.conf
 
 ![](/images/sam/scut/redis-ok.png)
 
-#### (3) 最后启动 GameServer.exe
+#### Ⅲ,  最后启动 GameServer.exe
 
 双击运行，启动成功后如下图：
 

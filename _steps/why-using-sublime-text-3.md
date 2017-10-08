@@ -2,6 +2,7 @@
 layout: post
 title: 为什么选择Sublime Text 3作为修仙方向
 date: 2017-09-21
+author: Unicorn25
 ---
   
 # 1 使用理由

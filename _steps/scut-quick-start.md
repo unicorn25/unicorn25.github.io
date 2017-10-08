@@ -7,9 +7,9 @@ author: Sam
 
 前言：本文章介绍的是 SCUT 在 Windows 平台运行流程。
 
-### [SCUT](http://www.scutgame.com/) 简介
+### SCUT 简介
 
-SCUT 包含从网络消息收发，到数据缓存，到数据库，一整套服务器解决方案。
+[SCUT](http://www.scutgame.com/) 包含从网络消息收发，到数据缓存，到数据库，一整套服务器解决方案。
 
 特点：
 
@@ -43,12 +43,12 @@ reids 下载参考上文的相关网址。redis目录如下：
 ```
 其中，redis.windows.conf 为 redis 的配置文件，详细介绍可以参考：
 
-https://github.com/MicrosoftArchive/redis/wiki/redis.conf
+[MicrosoftArchive/redis/wiki/redis.conf](https://github.com/MicrosoftArchive/redis/wiki/redis.conf)
 
 
-#### (2) 下载并配置SCUT服务
+#### (2) 下载并配置SCUT服务程序
 
-从源码仓库拉取源代码后，进入 ```\Scut\Release\6.7.9.11\Console``` 目录，点击```Install.bat```
+从源码仓库拉取源代码后，进入```\Scut\Release\6.7.9.11\Console``` 目录，点击```Install.bat```
 
 ![](/images/sam/scut/install.png)
 

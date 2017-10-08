@@ -134,7 +134,14 @@ MySQL Community Server 下载地址 : [dev.mysql.com/downloads/mysql](https://de
 
 ### 2、启动服务器
 
-#### (1) 先启动 redis
+#### (1) 若有需要 MySql 数据库服务，确保 MySql 已启动
+
+进入MySql安装目录下的bin目录，MySql 启动命令如下：
+
+```
+net start mysql
+```
+#### (2) 再启动 redis
 
 注意：若有修改 redis.windows.conf 文件，redis启动需要加载它。
 
@@ -148,9 +155,9 @@ start redis-server.exe  redis.windows.conf
 
 ![](/images/sam/scut/redis-ok.png)
 
-#### (2) 再启动 GameServer.exe
+#### (3) 最后启动 GameServer.exe
 
-启动成功后如下图：
+双击运行，启动成功后如下图：
 
 ![](/images/sam/scut/scut-ok.png)
 

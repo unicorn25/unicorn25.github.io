@@ -23,10 +23,10 @@ author: Sam
 * 提供了丰富的中间件，可以简单快捷的搭建您的游戏
 
 相关网址：
-* [官网 scutgame.com](http://www.scutgame.com/)
-* [WiKi 帮助文档](https://github.com/ScutGame/Scut/wiki)
-* [oschina 码云](https://gitee.com/scutgame/Scut) (源码仓库)
-* [Github](https://github.com/ScutGame/Scut) (源码仓库)
+* [scutgame.com](http://www.scutgame.com/) (SCUT 官网)
+* [SCUT 帮助文档](https://github.com/ScutGame/Scut/wiki)
+* [oschina 码云](https://gitee.com/scutgame/Scut) (SCUT 源码)
+* [Github](https://github.com/ScutGame/Scut) (SCUT 源码)
 * [redis](https://github.com/MicrosoftArchive/redis) (Windows平台)
 * [MySql](https://dev.mysql.com/)
 * [Navicat for MySQL](https://www.navicat.com/en/products/navicat-for-mysql) (MySql 管理工具)

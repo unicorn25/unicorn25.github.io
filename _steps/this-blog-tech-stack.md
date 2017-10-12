@@ -92,3 +92,13 @@ W3Schools是一家WEB技术资源网站，提供全面的教程、完善的参�
 相关链接
 >* [html 规范](http://codeguide.bootcss.com/#html)
 >* [css 规范](http://codeguide.bootcss.com/#css)
+
+#### 3、工具
+
+* 网页载入速度检测工具，Google 出品 (需要梯子)
+
+    [https://developers.google.com/speed/pagespeed/insights/](https://developers.google.com/speed/pagespeed/insights/)
+
+* 在线图片压缩网站（推荐）
+
+    [https://tinypng.com/](https://tinypng.com/)

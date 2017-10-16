@@ -99,6 +99,13 @@ seq.Play();
 
 Tween的移动类型有很多种，比如匀速运动、加速运动、减速运动，等等。
 
-各移动类形式可以参考网站：[robertpenner.com/easing/easing_demo.html](http://robertpenner.com/easing/easing_demo.html)
+各移动类形式可以参考网站：
+
+[easings.net/zh-cn](http://easings.net/zh-cn)
+
+ ![](/images/sam/dotween/easing.png)
+
+[robertpenner.com/easing/easing_demo.html](http://robertpenner.com/easing/easing_demo.html)
 
 ![](/images/sam/dotween/ease_demo.png)
+

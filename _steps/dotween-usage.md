@@ -31,9 +31,9 @@ author: Sam
 
 ### 命名前缀
 
-* DO： 执行动画的方法。       例如：DoMove(),  DoKill()
-* Set: 设置动画的一些属性。   例如：SetLoop(), SetEase()
-* On： 回调方法。  		   例如: OnStart(), OnComplete()
+* DO： 执行动画的方法。       eg：DoMove(),  DoKill()
+* Set: 设置动画的一些属性。   eg：SetLoop(), SetEase()
+* On： 回调方法。  		   eg: OnStart(), OnComplete()
 
 ----
 
@@ -52,13 +52,15 @@ public static IDOTweenInit Init( bool? recycleAllByDefault = null,
                                  LogBehaviour? logBehaviour = null);
 ```
 
+----
+
 ### 操作
 
 **1、操作Tweener(有三种方法)**
 
-1. DOTween 静态方法        eg : DOTween.To()
-2. Tweener 方法		     eg : myTween.Pause()
-3. object. + Do 开头方法   eg : transform.DoPause
+1. DOTween 静态方法。    eg : DOTween.To()
+2. Tweener 方法。		  eg : myTween.Pause()
+3. object. + Do 开头方法。eg : transform.DoPause
 
 **2、操作 Sequence 示例**
 
@@ -79,10 +81,11 @@ seq.OnComplete(() => label.enabled = false);
 seq.Play();
 ```
 
+----
 
 ### 相关链接
 
-**、官网**
+**1、官网**
 
  [dotween.demigiant.com](http://dotween.demigiant.com/getstarted.php)
 
@@ -93,13 +96,3 @@ Tween的移动类型有很多种，比如匀速运动、加速运动、减速运
 各移动类形式可以参考网站：[robertpenner.com/easing/easing_demo.html](http://robertpenner.com/easing/easing_demo.html)
 
 ![](/images/sam/dotween/ease_demo.png)
-
-
-
-
-
-
-
-
-
-

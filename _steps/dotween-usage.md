@@ -1,10 +1,16 @@
 ---
 layout: post
-title: DoTween 使用体会
+title: DoTween 入门简介
 date: 2017-10-12
 author: Sam
 ---
 
+
+DoTween 是一个Unity3D 的动画插件，它是前身是HOTween，也是目前市面上使用比较多的一款插件。
+
+它和iTween 性质一样，但DoTween 效率和功能更胜一筹。
+
+而其链式代码调用，也使其更具人性化。
 
 ----
 
@@ -31,7 +37,7 @@ author: Sam
 
 ### 命名前缀
 
-* DO： 执行动画的方法。       eg：DoMove(),  DoKill()
+* Do： 执行动画的方法。       eg：DoMove(),  DoKill()
 * Set: 设置动画的一些属性。   eg：SetLoop(), SetEase()
 * On： 回调方法。  		   eg: OnStart(), OnComplete()
 
@@ -56,13 +62,13 @@ public static IDOTweenInit Init( bool? recycleAllByDefault = null,
 
 ### 操作
 
-**1、操作Tweener(有三种方法)**
+**1、操作Tweener (有三种方法)**
 
 1. DOTween 静态方法。    eg : DOTween.To()
 2. Tweener 方法。		  eg : myTween.Pause()
 3. object. + Do 开头方法。eg : transform.DoPause
 
-**2、操作 Sequence 示例**
+**2、操作Sequence 示例**
 
 ```
 label.cachedTransform.localScale = new Vector3(2.0f, 2.0f, 2.0f);

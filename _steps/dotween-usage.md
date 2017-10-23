@@ -38,7 +38,7 @@ DoTween 是一个Unity3D 的动画插件，它是前身是HOTween，也是目前
 ### 命名前缀
 
 * Do： 执行动画的方法。       eg：DoMove(),  DoKill()
-* Set: 设置动画的一些属性。   eg：SetLoop(), SetEase()
+* Set：设置动画的一些属性。   eg：SetLoop(), SetEase()
 * On： 回调方法。  		   eg: OnStart(), OnComplete()
 
 ----
@@ -64,28 +64,42 @@ public static IDOTweenInit Init( bool? recycleAllByDefault = null,
 
 **1、操作Tweener (有三种方法)**
 
-1. DOTween 静态方法。    eg : DOTween.To()
-2. Tweener 方法。		  eg : myTween.Pause()
-3. object. + Do 开头方法。eg : transform.DoPause
+1. DOTween 静态方法。    eg ： DOTween.To()
+2. Tweener 方法。		  eg ： myTween.Pause()
+3. object. + Do 开头方法。eg ： transform.DoPause
 
 **2、操作Sequence 示例**
 
 ```
-label.cachedTransform.localScale = new Vector3(2.0f, 2.0f, 2.0f);
+label.cachedTransform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
 Sequence seq = DOTween.Sequence();
 
-//1，先缩小，持续 1.0f 秒 (从 2.0 缩小到 1.0 )
-seq.Append(label.cachedTransform.DOScale(1.0f, 0.5f).SetEase(Ease.OutCirc));
+float total = 1.5f;
+float delay = 0.5f;
 
-//2，然后淡出，持续 0.2f 秒，延迟 0.5f 秒执行
-seq.Append(DOTween.To(() => label.alpha, a => label.alpha = a, 0, 0.2f)
-                        .SetEase(Ease.Linear)
-                        .SetDelay(0.5f));
+//1，跳跃
+seq.Append(label.cachedTransform.DOLocalJump(new Vector3(60, -50, 0), 100f, 1, total)
+                                .SetEase(Ease.Linear));
+
+//1，同时放大
+seq.Insert(0, label.cachedTransform.DOScale(2.0f, 0.5f)
+                                   .SetEase(Ease.OutCirc));
+
+//1，延时缩小
+seq.Insert(0, label.cachedTransform.DOScale(0.3f, total - delay)
+                                   .SetEase(Ease.Linear)
+                                   .SetDelay(delay));
+
+//1，延时淡出
+seq.Insert(0, DOTween.To(() => label.alpha, a => label.alpha = a, 0, total - delay)
+                     .SetEase(Ease.InQuint)
+                     .SetDelay(delay));
 
 seq.OnComplete(() => label.enabled = false);
 
 seq.Play();
 ```
+![](/images/sam/dotween/eg2.gif)
 
 ----
 
@@ -108,4 +122,3 @@ Tween的移动类型有很多种，比如匀速运动、加速运动、减速运
 [robertpenner.com/easing/easing_demo.html](http://robertpenner.com/easing/easing_demo.html)
 
 ![](/images/sam/dotween/ease_demo.png)
-

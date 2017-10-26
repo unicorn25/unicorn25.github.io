@@ -19,10 +19,10 @@ author: linkinmama
 
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/2854160-3c50304cd6c84ccd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)     
 
-![1509025376(1)_看图王_看图王.png]     (http://upload-images.jianshu.io/upload_images/2854160-dd85643c1b4ad4d8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)     
+![1509025376(1)_看图王_看图王.png](http://upload-images.jianshu.io/upload_images/2854160-dd85643c1b4ad4d8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)     
 
 选择对应的图集，这里我们选择亡灵生物的图集Creature_Necropolis:     
-![1509025623(1)_看图王.jpg]     (http://upload-images.jianshu.io/upload_images/2854160-12a74fdca6032e1e.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)     
+![1509025623(1)_看图王.jpg](http://upload-images.jianshu.io/upload_images/2854160-12a74fdca6032e1e.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)     
 
 
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/2854160-63b05ebd995f532e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)     
@@ -36,7 +36,7 @@ author: linkinmama
 点击红框区域，Unity会自动选择图集文件。     
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/2854160-7e310c4583cef91d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)     
 
-![1509026562(1)_看图王.jpg]     (http://upload-images.jianshu.io/upload_images/2854160-c62e9ad97cf635fa.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)     
+![1509026562(1)_看图王.jpg](http://upload-images.jianshu.io/upload_images/2854160-c62e9ad97cf635fa.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)     
 
 ---  
 

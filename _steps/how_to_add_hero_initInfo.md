@@ -13,7 +13,7 @@ author: linkinmama
 
 ---  
 
- # **1.在代码中添加新英雄的ID**     
+# **在代码中添加新英雄的ID**     
 打开PublicID文件，在枚举EHeroIDs的末尾添加新的枚举项 Merikh 作为新英雄的ID。（必须在末尾添加，不能在中间插入。）     
 
 
@@ -22,7 +22,7 @@ author: linkinmama
 
 ---
 
-# **2.配置英雄初始信息**     
+# **配置英雄初始信息**     
 在 \resNew\Data\Heroes\Heroes.xml 文件中添加英雄初始信息配置文件的路径；     
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/2854160-6d3bbe62455c29ec.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)     
 ![](http://upload-images.jianshu.io/upload_images/2854160-1d710b9a5104e3c2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)     

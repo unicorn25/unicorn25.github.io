@@ -26,8 +26,10 @@ author: linkinmama
 ---  
 
 
-# **修改英雄特长的名称与描述**            
+# **修改英雄特长的名称与描述**    
+
 配置相关文本信息路径        
+
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/2854160-640c256b93549023.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)        
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/2854160-413684e87c6f36e8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)        
 在对应路径下新建文件，并修改信息。        
@@ -41,14 +43,12 @@ author: linkinmama
 
 # **添加图标**        
 
-## 修改图标配置文件        
+修改图标配置文件        
 
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/2854160-68a892d484162928.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)        
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/2854160-43576536adbc01bd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)        
 
-
-
-## 将头像打入图集        
+将头像打入图集        
 
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/2854160-42d46b5884a448c9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)        
 
@@ -62,14 +62,13 @@ author: linkinmama
 
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/2854160-5229892579cfa7ed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)        
 
-
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/2854160-bfa827617a1c9fb6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)        
 
 
-
-## 在Unity内删除icon_hero_Merikh.png 文件        
+在Unity内删除icon_hero_Merikh.png 文件        
 
 这时可以在游戏内看到该英雄特长了。        
+
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/2854160-fba33cfd8c87ca03.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)        
 
 ---  

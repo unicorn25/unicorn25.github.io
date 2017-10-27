@@ -1,11 +1,9 @@
 ---
 layout: post
-title: 怎样给英雄添加英雄特长
+title: 怎样添加英雄英雄特长
 date: 2017-10-26
 author: linkinmama
 ---
-
----  
 
 
 # **在代码中添加新的英雄特长ID**    

@@ -13,7 +13,7 @@ author: linkinmama
 
 # **将头像打入图集。**     
 将英雄图片 icon_hero_Merikh.png 拷贝到 Asset/ 目录下，     
-打开Unity,你可以看到该文件以及在工程中。在Unity中选中改图片文件，鼠标右击弹出菜单，根据下图提示一步一步操作：     
+打开Unity,你可以看到该文件已经出现在工程目录。在Unity中选中它，鼠标右击弹出菜单，根据提示一步一步操作：     
 
 ![1_看图王.jpg](http://upload-images.jianshu.io/upload_images/2854160-c80820ac7cd6d94f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)     
 

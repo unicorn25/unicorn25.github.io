@@ -8,7 +8,7 @@ author: linkinmama
 ---  
 
 
-# **在代码中添加新的英雄特长的ID**    
+# **在代码中添加新的英雄特长ID**    
     
 打开PublicID文件，枚举EHeroSpec的末尾添加HERO_SPEC_DISCIPLE_OF_DARKNESS。（必须在末尾添加，不能在中间插入。）                
 
@@ -65,7 +65,11 @@ author: linkinmama
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/2854160-bfa827617a1c9fb6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)        
 
 
-在Unity内删除icon_hero_Merikh.png 文件        
+在Unity内删除icon_hero_Merikh.png 文件       
+
+---  
+
+ 
 
 这时可以在游戏内看到该英雄特长了。        
 

@@ -5,11 +5,10 @@ date: 2018-03-08
 author: Sam
 ---
 
+### 操作方法
 
-### Unity3D 本地持久化存取数据方法 
-
-* 存：将数据用 JsonUtility、Newtonsoft.Json 等格式化为 string(json)，然后存入到 PlayerPrefs
-* 取：逆操作**存**即可。
+* 存：将数据用 JsonUtility、Newtonsoft.Json 等格式化为 string(json)，然后存入到 PlayerPrefs。
+* 取：PlayerPrefs 读取得到数据 string， 在将string 反序列化为指定的 Data。
 
 **注意：**
 
